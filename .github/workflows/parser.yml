@@ -1,7 +1,7 @@
 name: Kufar Parser
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 3-23 * * *'   # с 3 до 23 UTC = с 6 до 2 ночи по Минску (не покрывает 0-5 утра)
   workflow_dispatch:
 jobs:
   check:
