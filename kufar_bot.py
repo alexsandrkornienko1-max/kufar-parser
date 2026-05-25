@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ========== НАСТРОЙКИ (изменяемые параметры) ==========
 # Вставьте сюда URL, который вы скопировали с Kufar
-SEARCH_URL = "https://auto.kufar.by/l/cars?elementType=categories&_gl=1*2o7ngg*_gcl_au*MTkwODc2MjEyNi4xNzc3MDY4MTAy*_ga*MTQ0Mzg3ODYxOS4xNzc3MDY4MDg4*_ga_ESH3WRCK3J*czE3NzcyODAxMTUkbzUkZzEkdDE3NzcyODAxNzEkajQkbDAkaDA"
+SEARCH_URL = "https://re.kufar.by/l/minsk/snyat/kommercheskaya/magaziny?cmim=v.and%3A2&cur=USD&fl=r%3A1%2C1&sort=lst.d&st=r%3A30%2C70"
 
 # Токены читаются из переменных окружения (защищённые секреты GitHub Actions)
 TELEGRAM_BOT_TOKEN = os.getenv("8517056028:AAHwxR1kXKaPBJYFqsljbXSQDM1y6yk7Ee0")
